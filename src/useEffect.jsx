@@ -14,10 +14,10 @@ const Timer = () => {
     
   }, []);
 
-  return <div>
+  return <fieldset><div style={{ backgroundColor: '#646cffaa'}}class ="useEffect">
     <h1>Useffect</h1>
     <h2>Time:{seconds} secs</h2>
-    </div>;
+    </div></fieldset>;
 };
 
 export default Timer;
